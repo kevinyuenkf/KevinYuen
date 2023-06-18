@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
@@ -27,6 +28,7 @@
     <link href="css/style.css" rel="stylesheet">
 </head>
 
+
 <body>
     <!-- Navbar Start -->
     <div class="container-fluid bg-white position-relative">
@@ -39,21 +41,14 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav ml-auto py-0 pr-3 border-right">
-                    <a href="index.html" class="nav-item nav-link active">Home</a>
-                    <a href="about.html" class="nav-item nav-link">About</a>
-                    <a href="gallery.html" class="nav-item nav-link">Gallery</a>
-                    <a href="portfolio.html" class="nav-item nav-link">Portfolio</a>
-                    <a href="blog.html" class="nav-item nav-link">Blog</a>
-                    <a href="article.html" class="nav-item nav-link">Article</a>
-                    <!-- <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Article</a>
-                        <div class="dropdown-menu rounded-0 m-0">
-                            <a href="team.html" class="dropdown-item">Meat The Team</a>
-                            <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                        </div>
-                    </div> -->
-                    <a href="project.html" class="nav-item nav-link">Project</a>
-                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    <a href="index.html" id="home-link" class="nav-item nav-link active">Home</a>
+                    <a href="about.html" id="about-link" class="nav-item nav-link">About</a>
+                    <a href="gallery.html" id="gallery-link" class="nav-item nav-link">Gallery</a>
+                    <a href="portfolio.html" id="portfolio-link" class="nav-item nav-link">Portfolio</a>
+                    <!-- <a href="blog.html" id="blog-link" class="nav-item nav-link">Blog</a>
+                    <a href="article.html" id="article-link" class="nav-item nav-link">Article</a>
+                    <a href="project.html" id="project-link" class="nav-item nav-link">Project</a> -->
+                    <a href="contact.html" id="contact-link" class="nav-item nav-link">Contact</a>
                 </div>
                 <div class="d-none d-lg-flex align-items-center pl-4">
                     <i class="fa fa-2x fa-mobile-alt text-primary mr-3"></i>
@@ -74,10 +69,7 @@
             <div class="col-lg-6 px-md-5 text-center text-lg-left">
                 <h1 class="display-2 text-uppercase mb-3">Hi there!</h1><br>
                 <h1 class="display-2 text-uppercase mb-3">I'm Kevin Yuen.</h1>
-                <p class="text-dark mb-4">Welcome to my website! I'm a Student, Programmer and Dream Chaster. I am
-                    interested in information technology, especially on coding. This website will be served as a
-                    platform for me to practice my coding ability, and share my wonderful life to all of my dear
-                    friends!
+                <p class="text-dark mb-4">Welcome to my website! I'm Kevin, a student and tech enthusiast. I love trying new things and sharing my experiences. Let's explore the latest trends and bring our technological dreams to life together!
                 </p>
                 <a href="#social_media" class="btn btn-dark text-uppercase mt-1 py-3 px-5">Learn More</a>
             </div>
@@ -111,7 +103,7 @@
 
 
     <!-- About Start -->
-    <div class=" container-fluid py-5">
+    <div class=" container-fluid py-5" id="about_me">
                                 <div class="container py-5">
                                     <div class="row align-items-center">
                                         <div class="col-lg-6">
@@ -121,26 +113,11 @@
                                             <h1 class="display-4 text-uppercase mb-4">Kevin Yuen ?</h1>
                                             <h5 class="text-uppercase text-primary mb-3">I'm a Student, Programmer and
                                                 Dream Chaster.</h5>
-                                            <p class="mb-4">Hey folks! Here is <span style="font-weight:900">Kevin Yuen
-                                                    Ka Fu 袁嘉賦</span>. I'm a full-time student in <span
-                                                    style="color: #8f5b01; font-weight: 900;">The Hong Kong University
-                                                    of Science and Technology</span>. The days in university were
-                                                amazing, I've met a lot of friends and gained many incredible
-                                                experience! </p>
-                                            <p class="mb-4">Fun fact for you, HKUST is also known as the University of
-                                                Stress and Tension for the huge amount of work given to students. Could
-                                                you magine how hard is the life as a HKUST student? We need to encounter
-                                                numerous homework, exams, projects. And don't forget, programming
-                                                assignments which tailor-made for the Computer Science students like me.
-                                            </p>
-                                            <p class="mb-4">I'll <span style="color: #8f5b01; font-weight: 900;">share
-                                                    tips</span> and <span
-                                                    style="color: #8f5b01; font-weight: 900;">smemories of my wonderful
-                                                    university life</span>, and let you know more about me and how's an
-                                                university student's life like. </p>
-                                            <p class="mb-4">Stay turn!</p>
-
-                                            <a href="about.html" class="btn btn-primary text-uppercase py-3 px-5">Read
+                                                <p>Welcome to my personal website! My name is <span style="color: #8f5b01; font-weight: 900;">Kevin Yuen Ka Fu</span>, and I am a student and programmer currently majoring in Mathematics (Computer Science Track) at <span style="color: #8f5b01; font-weight: 900;">The Hong Kong University of Science and Technology</span>.</p>
+                                                <p>I have always had a strong interest in <span style="color: #8f5b01; font-weight: 900;">technology</span> and am constantly looking to <span style="color: #8f5b01; font-weight: 900;">explore new ideas</span> and <span style="color: #8f5b01; font-weight: 900;">try new things</span>. I am dedicated to <span style="color: #8f5b01; font-weight: 900;">practicing my skills</span> to improve my craft.</p>
+                                                <p>On this website, I will share my experiences as a university student, along with some <span style="color: #8f5b01; font-weight: 900;">studying tips</span> that have helped me along the way. Whether it's surviving exam week, navigating the social scene, or mastering the latest <span style="color: #8f5b01; font-weight: 900;">programming languages</span>, I've got you covered.</p>
+                                                <p>Thank you for visiting my website, and I hope you find the information here helpful and inspiring. Please feel free to contact me if you have any questions or would like to collaborate on a project. Let's work together to achieve our goals and make our <span style="color: #8f5b01; font-weight: 900;">technological dreams</span> a reality!</p>
+                                            <a href="about.html" class="btn btn-primary text-uppercase py-3 px-5" id="read_more">Read
                                                 More</a>
                                         </div>
                                     </div>
@@ -148,258 +125,9 @@
                         </div>
                         <!-- About End -->
 
-
-                        <!-- Portfolio Start -->
-                        <div class="container-fluid py-5">
-                            <div class="container pt-5 pb-3">
-                                <h1 class="display-4 text-uppercase text-center mb-4">My Skills</h1>
-                                <div class="my_skill_row" style="margin-bottom: 20px;">
-                                    <span>How do you keep life exciting? I believe the only way is to <span
-                                            style="color: #8f5b01; font-weight: 900;">stand out from your own comfort
-                                            zone!</span> You'll grow and discover new interests and hobbies if you give
-                                        them a chance. I would love to share <span
-                                            style="color: #8f5b01; font-weight: 900;">my skill sets with you</span>,
-                                        such as <a href="gallery.html">what I learned</a> and <a
-                                            href="gallery.html">what I could do</a>.</span>
-                                    <br><br>
-                                    <span>It would be my pleasure if I could bring you new ideas!</span>
-                                </div>
-                                <div class="row">
-                                    <div class="col-lg-3 mb-2">
-                                        <div class="service-item rounded p-5 mb-4">
-                                            <i class="fa fa-3x fa-mobile text-primary mb-4"></i>
-                                            <h4 class="text-uppercase mb-4">Mobile App <span
-                                                    class="d-block text-body">Development</span></h4>
-                                            <p class="m-0">I have built an IOS app in previous internship.</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3 mb-2">
-                                        <div class="service-item rounded p-5 mb-4">
-                                            <i class="fa fa-3x fa-code text-primary mb-4"></i>
-                                            <h4 class="text-uppercase mb-4">Website <span
-                                                    class="d-block text-body">Development</span></h4>
-                                            <p class="m-0">I used WordPress to build a website for a company in previous
-                                                internship.</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3 mb-2">
-                                        <div class="service-item rounded p-5 mb-4">
-                                            <i class="fa fa-3x fa-envelope-open-text text-primary mb-4"></i>
-                                            <h4 class="text-uppercase mb-4">Video <span
-                                                    class="d-block text-body">Editing</span></h4>
-                                            <p class="m-0">I could express my feeling and feel satisfied by editing
-                                                video. </p>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3 mb-2">
-                                        <div class="service-item rounded p-5 mb-4">
-                                            <i class="fa fa-3x fa-edit text-primary mb-4"></i>
-                                            <h4 class="text-uppercase mb-4">Content <span
-                                                    class="d-block text-body">Writing</span></h4>
-                                            <p class="m-0">More specifily, I could share my experience by writing
-                                                meaningful content.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-12 mb-2">
-                                    <div class="gallery_row">
-                                        <div class="social_media_btn">
-                                            <a class="btn btn-primary text-uppercase py-3 px-5"
-                                                href="portfolio.html">Know more!</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Portfolio End -->
-
-
-                        <!-- Portfolio Start -->
-                        <div class="container-fluid py-5">
-                            <div class="container pt-5 pb-3">
-                                <h1 class="display-4 text-uppercase text-center mb-5">Visit my Projects</h1>
-                                <div class="row">
-                                    <div class="col-12 text-center mb-2">
-                                        <ul class="list-inline mb-4" id="portfolio-flters">
-                                            <li class="btn btn-outline-dark text-uppercase py-2 px-4 active"
-                                                data-filter="*">
-                                                <i class="fa fa-star text-primary mr-2"></i>All
-                                            </li>
-                                            <li class="btn btn-outline-dark text-uppercase py-2 px-4"
-                                                data-filter=".first">
-                                                <i class="fa fa-laptop-code text-primary mr-2"></i>Website
-                                            </li>
-                                            <li class="btn btn-outline-dark text-uppercase py-2 px-4"
-                                                data-filter=".second">
-                                                <i class="fa fa-mobile-alt text-primary mr-2"></i>Mobile
-                                            </li>
-                                            <li class="btn btn-outline-dark text-uppercase py-2 px-4"
-                                                data-filter=".third">
-                                                <i class="fa fa-film text-primary mr-2"></i>Video
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="row portfolio-container">
-                                    <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
-                                        <div class="team-item rounded overflow-hidden">
-                                            <div class="position-relative">
-                                                <img class="img-fluid w-100" src="img/brandnographer.jpg" alt="">
-                                                <div class="team-overlay">
-                                                    <div class="d-flex align-items-center justify-content-start">
-                                                        <a class="btn btn-lg btn-primary btn-lg-square mx-1" href="#"><i
-                                                                class="fab fa-twitter"></i></a>
-                                                        <a class="btn btn-lg btn-primary btn-lg-square mx-1" href="#"><i
-                                                                class="fab fa-facebook-f"></i></a>
-                                                        <a class="btn btn-lg btn-primary btn-lg-square mx-1" href="#"><i
-                                                                class="fab fa-linkedin-in"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="bg-light text-center p-4">
-                                                <h4 class="text-uppercase">Brandnographer</h4>
-                                                <p class="m-0">Helped to construct official website by WordPress.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
-                                        <div class="team-item rounded overflow-hidden">
-                                            <div class="position-relative">
-                                                <img class="img-fluid w-100" src="img/edvanced Logo.jpg" alt="">
-                                                <div class="team-overlay">
-                                                    <div class="d-flex align-items-center justify-content-start">
-                                                        <a class="btn btn-lg btn-primary btn-lg-square mx-1" href="#"><i
-                                                                class="fab fa-twitter"></i></a>
-                                                        <a class="btn btn-lg btn-primary btn-lg-square mx-1" href="#"><i
-                                                                class="fab fa-facebook-f"></i></a>
-                                                        <a class="btn btn-lg btn-primary btn-lg-square mx-1" href="#"><i
-                                                                class="fab fa-linkedin-in"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="bg-light text-center p-4">
-                                                <h4 class="text-uppercase">Edvanced.co</h4>
-                                                <p class="m-0">Helped to create an IOS application and assisted a NFT
-                                                    Donation Campaign.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
-                    <div class="position-relative rounded overflow-hidden mb-2">
-                        <img class="img-fluid w-100" src="img/portfolio-3.jpg" alt="">
-                        <div class="portfolio-btn d-flex align-items-center justify-content-center">
-                            <a href="img/portfolio-3.jpg" data-lightbox="portfolio">
-                                <i class="fa fa-4x fa-plus text-primary"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
-                    <div class="position-relative rounded overflow-hidden mb-2">
-                        <img class="img-fluid w-100" src="img/portfolio-4.jpg" alt="">
-                        <div class="portfolio-btn d-flex align-items-center justify-content-center">
-                            <a href="img/portfolio-4.jpg" data-lightbox="portfolio">
-                                <i class="fa fa-4x fa-plus text-primary"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
-                    <div class="position-relative rounded overflow-hidden mb-2">
-                        <img class="img-fluid w-100" src="img/portfolio-5.jpg" alt="">
-                        <div class="portfolio-btn d-flex align-items-center justify-content-center">
-                            <a href="img/portfolio-3.jpg" data-lightbox="portfolio">
-                                <i class="fa fa-4x fa-plus text-primary"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
-                    <div class="position-relative rounded overflow-hidden mb-2">
-                        <img class="img-fluid w-100" src="img/portfolio-6.jpg" alt="">
-                        <div class="portfolio-btn d-flex align-items-center justify-content-center">
-                            <a href="img/portfolio-4.jpg" data-lightbox="portfolio">
-                                <i class="fa fa-4x fa-plus text-primary"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div> -->
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Portfolio End -->
-
-
-                        <!-- Pricing Plan Start -->
-                        <!-- <div class="container-fluid py-5">
-        <div class="container pt-5 pb-3">
-            <h1 class="display-4 text-uppercase text-center mb-5">Competitive Pricing</h1>
-            <div class="row">
-                <div class="col-lg-4 mb-2">
-                    <div class="bg-light rounded text-center pt-5 mt-lg-5 mb-4">
-                        <h2 class="text-uppercase">Basic</h2>
-                        <h6 class="text-uppercase text-body mb-5">The Best Choice</h6>
-                        <div class="text-center bg-dark rounded-circle p-4 mb-2">
-                            <h1 class="display-4 text-white mb-0">
-                                <small class="align-top" style="font-size: 22px; line-height: 45px;">$</small>49<small
-                                    class="align-bottom" style="font-size: 16px; line-height: 40px;">/
-                                    Mo</small>
-                            </h1>
-                        </div>
-                        <div class="text-center py-4">
-                            <p>HTML5 & CSS3</p>
-                            <p>Bootstrap v4</p>
-                            <p>Responsive Layout</p>
-                            <p>Compatible With All Browsers</p>
-                            <a href="" class="btn btn-dark text-uppercase py-2 px-4 my-3">Order Now</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 mb-2">
-                    <div class="bg-dark rounded text-center pt-5 mb-4">
-                        <h2 class="text-uppercase text-white">Standard</h2>
-                        <h6 class="text-uppercase text-secondary mb-5">The Best Choice</h6>
-                        <div class="text-center bg-primary rounded-circle p-4 mb-2">
-                            <h1 class="display-4 mb-0">
-                                <small class="align-top" style="font-size: 22px; line-height: 45px;">$</small>99<small
-                                    class="align-bottom" style="font-size: 16px; line-height: 40px;">/
-                                    Mo</small>
-                            </h1>
-                        </div>
-                        <div class="text-center text-secondary py-4">
-                            <p>HTML5 & CSS3</p>
-                            <p>Bootstrap v4</p>
-                            <p>Responsive Layout</p>
-                            <p>Compatible With All Browsers</p>
-                            <a href="" class="btn btn-primary text-uppercase py-2 px-4 my-3">Order Now</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 mb-2">
-                    <div class="bg-light rounded text-center pt-5 mt-lg-5 mb-4">
-                        <h2 class=" text-uppercase">Extended</h2>
-                        <h6 class="text-uppercase text-body mb-5">The Best Choice</h6>
-                        <div class="text-center bg-dark rounded-circle p-4 mb-2">
-                            <h1 class="display-4 text-white mb-0">
-                                <small class="align-top" style="font-size: 22px; line-height: 45px;">$</small>149<small
-                                    class="align-bottom" style="font-size: 16px; line-height: 40px;">/
-                                    Mo</small>
-                            </h1>
-                        </div>
-                        <div class="text-center py-4">
-                            <p>HTML5 & CSS3</p>
-                            <p>Bootstrap v4</p>
-                            <p>Responsive Layout</p>
-                            <p>Compatible With All Browsers</p>
-                            <a href="" class="btn btn-dark text-uppercase py-2 px-4 my-3">Order Now</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
-                        <!-- Pricing Plan End -->
-
+                        <!-- Portfolio - My Skills Start -->
+                        <div id="mySkills_1"></div>
+                        <!-- Portfolio - My Skills End -->
 
                         <!-- Team Start -->
                         <div class="container-fluid py-5">
@@ -595,85 +323,9 @@
                                         <!-- Contact End -->
 
 
-                                        <!-- Footer Start -->
-                                        <div class="container-fluid bg-dark text-white-50 py-5 px-sm-3 px-md-5"
-                                            style="margin-top: 90px;">
-                                            <div class="row pt-5">
-                                                <div class="col-lg-3 col-md-6 mb-5">
-                                                    <a href="index.html" class="navbar-brand">
-                                                        <h1 class="m-0 mt-n2 text-white display-4">KEVIN YUEN</h1>
-                                                    </a>
-                                                    <p>I'm a Student, Programmer and Dream Chaster.</p>
-                                                    <h6 class="text-uppercase text-white py-2">Follow Me</h6>
-                                                    <div class="d-flex justify-content-start">
-                                                        <a class="btn btn-lg btn-primary btn-lg-square mr-2"
-                                                            href="https://api.whatsapp.com/send?phone=85260234863&text=Hi%2C%20I%20am%20Kevin%20Yuen%2C%20nice%20to%20meet%20you.%20Please%20leave%20your%20message%20here."><i
-                                                                class="fab fa-whatsapp"></i></a>
-                                                        <a class="btn btn-lg btn-primary btn-lg-square mr-2"
-                                                            href="https://www.facebook.com/profile.php?id=100001705519231"><i
-                                                                class="fab fa-facebook-f"></i></a>
-                                                        <a class="btn btn-lg btn-primary btn-lg-square mr-2"
-                                                            href="https://www.linkedin.com/in/kevin-yuen-66a068221/"><i
-                                                                class="fab fa-linkedin-in"></i></a>
-                                                        <a class="btn btn-lg btn-primary btn-lg-square"
-                                                            href="https://www.instagram.com/kevinyuenkf/?hl=zh-tw"><i
-                                                                class="fab fa-instagram"></i></a>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-3 col-md-6 mb-5">
-                                                    <h4 class="text-uppercase text-white mb-4">Get In Touch</h4>
-                                                    <p>Find me if you're interested in me.</p>
-                                                    <p><i class="fa fa-map-marker-alt text-white mr-2"></i>Ma On Shan,
-                                                        Hong Kong, China</p>
-                                                    <p><i class="fa fa-phone-alt text-white mr-2"></i>+852 6023 4863</p>
-                                                    <p><i
-                                                            class="fa fa-envelope text-white mr-2"></i>yuenkevin0227@gmail.com
-                                                    </p>
-                                                </div>
-                                                <div class="col-lg-3 col-md-6 mb-5">
-                                                    <h4 class="text-uppercase text-white mb-4">Quick Links</h4>
-                                                    <div class="d-flex flex-column justify-content-start">
-                                                        <a class="text-white-50 mb-2" href="#"><i
-                                                                class="fa fa-angle-right text-white mr-2"></i>Home</a>
-                                                        <a class="text-white-50 mb-2" href="#"><i
-                                                                class="fa fa-angle-right text-white mr-2"></i>About</a>
-                                                        <a class="text-white-50 mb-2" href="#"><i
-                                                                class="fa fa-angle-right text-white mr-2"></i>Gallery</a>
-                                                        <a class="text-white-50 mb-2" href="#"><i
-                                                                class="fa fa-angle-right text-white mr-2"></i>Portfolio</a>
-                                                        <a class="text-white-50 mb-2" href="#"><i
-                                                                class="fa fa-angle-right text-white mr-2"></i>Blog</a>
-                                                        <a class="text-white-50 mb-2" href="#"><i
-                                                                class="fa fa-angle-right text-white mr-2"></i>Article</a>
-                                                        <a class="text-white-50 mb-2" href="#"><i
-                                                                class="fa fa-angle-right text-white mr-2"></i>Project</a>
-                                                        <a class="text-white-50 mb-2" href="#"><i
-                                                                class="fa fa-angle-right text-white mr-2"></i>Contact</a>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-3 col-md-6 mb-5">
-                                                    <h4 class="text-uppercase text-white mb-4">Newsletter</h4>
-                                                    <p class="mb-4">Want more of my best content? Sign up today.</p>
-                                                    <div class="w-100 mb-3">
-                                                        <div class="input-group">
-                                                            <input type="text" class="form-control border-light"
-                                                                style="padding: 25px;" placeholder="Your Email">
-                                                            <div class="input-group-append">
-                                                                <button class="btn btn-primary text-uppercase px-3">Sign
-                                                                    Up</button>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <i>Thank you for your supporting.</i>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="container-fluid py-4 px-sm-3 px-md-5" style="background: #111111;">
-                                            <p class="mb-2 text-center text-white-50">&copy; <a href="#">Kevin Yuen
-                                                    2022</a>. All Rights Reserved.</p>
-                                        </div>
-                                        <!-- Footer End -->
-
+                                            <!-- Footer Start -->
+                                            <div id="footer"></div>
+                                            <!-- Footer End -->
 
                                         <!-- Back to Top -->
                                         <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i

@@ -9789,9 +9789,24 @@ h6,
 }
 
 .service-item {
-  height: 320px;
+  height: 380px;
   background: #F4F5F8;
   transition: .5s;
+}
+
+.service-item-tab {
+  height: 450px;
+  transition: .5s;
+  border: 2px solid #F4F5F8;
+  border-radius: 10px;
+}
+
+#portfolio-mySkills a{
+  text-decoration: none;
+}
+
+#portfolio-mySkills p{
+color:#686A6F;
 }
 
 .service-item:hover {
@@ -9806,6 +9821,23 @@ h6,
   color: #F4F5F8;
 }
 
+.WExp{
+  height: 300px;
+  padding: 1rem !important;
+
+}
+
+.WExp img {
+  width: 128px;
+  background-color: #F4F5F8;
+  padding:10px;
+  margin-bottom: 10px;
+}
+
+.WExp span{
+  font-size: 1rem;
+}
+
 .gallery_section{
   position: relative;
   display: flex;
@@ -9814,8 +9846,6 @@ h6,
   flex-wrap:wrap;
   
 }
-
-
 
 section .box{
   position: relative;
@@ -10087,4 +10117,57 @@ section .box .imgBx .gallery_content h3{
 .my_skill_row a:hover{
   color: #FFAA17;
   text-decoration: underline;
+}
+
+.gallery-carousel {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.carousel-slides {
+  position: relative;
+  width: 60%;
+  height: 100%;
+  display: flex;
+}
+
+.carousel-slides img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.carousel-slides img.active {
+  opacity: 1;
+}
+
+.carousel-dots {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.carousel-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ccc;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.carousel-dot.active {
+  background-color: #555;
 }

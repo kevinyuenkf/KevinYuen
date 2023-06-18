@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>DOT.NET - Digital Agency Website Template</title>
+    <title>Portfolio - Kevin Yuen</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Free HTML Templates" name="keywords">
     <meta content="Free HTML Templates" name="description">
@@ -38,21 +38,14 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav ml-auto py-0 pr-3 border-right">
-                    <a href="index.html" class="nav-item nav-link">Home</a>
-                    <a href="about.html" class="nav-item nav-link">About</a>
-                    <a href="gallery.html" class="nav-item nav-link">Gallery</a>
-                    <a href="portfolio.html" class="nav-item nav-link active">Portfolio</a>
-                    <a href="blog.html" class="nav-item nav-link">Blog</a>
-                    <a href="article.html" class="nav-item nav-link">Article</a>
-                    <!-- <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Article</a>
-                        <div class="dropdown-menu rounded-0 m-0">
-                            <a href="team.html" class="dropdown-item">Meat The Team</a>
-                            <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                        </div>
-                    </div> -->
-                    <a href="project.html" class="nav-item nav-link">Project</a>
-                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    <a href="index.html" id="home-link" class="nav-item nav-link">Home</a>
+                    <a href="about.html" id="about-link" class="nav-item nav-link">About</a>
+                    <a href="gallery.html" id="gallery-link" class="nav-item nav-link">Gallery</a>
+                    <a href="portfolio.html" id="portfolio-link" class="nav-item nav-link active">Portfolio</a>
+                    <!-- <a href="blog.html" id="blog-link" class="nav-item nav-link">Blog</a>
+                    <a href="article.html" id="article-link" class="nav-item nav-link">Article</a>
+                    <a href="project.html" id="project-link" class="nav-item nav-link">Project</a> -->
+                    <a href="contact.html" id="contact-link" class="nav-item nav-link">Contact</a>
                 </div>
                 <div class="d-none d-lg-flex align-items-center pl-4">
                     <i class="fa fa-2x fa-mobile-alt text-primary mr-3"></i>
@@ -76,106 +69,239 @@
             <h6 class="text-uppercase m-0">Portfolio</h6>
         </div>
     </div>
-    <!-- Page Header Start -->
 
-    <!-- Gallery Start -->
-    <div class="container-fluid py-5">
+
+    <!-- My Skills Start -->
+    <div class="container-fluid py-5" id="mySkills">
         <div class="container pt-5 pb-3">
             <h1 class="display-4 text-uppercase text-center mb-4">My Skills</h1>
-            <div class="my_skill_row" style="margin-bottom: 20px;">
-                <span>How do you keep life exciting? I believe the only way is to <span style="color: #8f5b01; font-weight: 900;">stand out from your own comfort zone!</span> You'll grow and discover new interests and hobbies if you give them a chance. I would love to share  <span style="color: #8f5b01; font-weight: 900;">my skill sets with you</span>, such as <a href="gallery.html">what I learned</a> and <a href="gallery.html">what I could do</a>.</span>
+                <div class="my_skill_row" style="margin-bottom: 20px;">
+                    <span>As you browse my portfolio, you'll discover the various skills I've acquired throughout my career. From my experiences, I've learned that <span style="color: #8f5b01; font-weight: 900;">stepping out of your comfort zone</span> is the key to personal and professional growth. I'm excited to share my expertise with you and help you explore new possibilities!</span>
                     <br><br>
-                <span>It would be my pleasure if I could bring you new ideas!</span>
+                </div>
+            <div class="row" id="portfolio-mySkills">
+                <div class="col-lg-3 mb-2">
+                    <a class="active" href="#mobile-app" data-toggle="tab">
+                        <div class="service-item rounded p-5 mb-4">
+                            <i class="fa fa-3x fa-mobile text-primary mb-4"></i>
+                            <h4 class="text-uppercase mb-4">Mobile App<span class="d-block text-body">Development</span></h4>
+                            <p class="m-0">Familiar with Swift code for IOS app development.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 mb-2">
+                    <a href="#computer-programming" data-toggle="tab">
+                        <div class="service-item rounded p-5 mb-4">
+                            <i class="fa fa-3x fa-code text-primary mb-4"></i>
+                            <h4 class="text-uppercase mb-4">Computer<span class="d-block text-body">Programming</span></h4>
+                            <p class="m-0">I am proficient in Python, C++, Vue.js, HTML, CSS, and JavaScript.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 mb-2">
+                    <a href="#video-image-editing" data-toggle="tab">
+                        <div class="service-item rounded p-5 mb-4">
+                            <i class="fa fa-3x fa-envelope-open-text text-primary mb-4"></i>
+                            <h4 class="text-uppercase mb-4">Video & Image<span class="d-block text-body">Editing</span></h4>
+                            <p class="m-0">I am proficient in using Adobe Creative apps such as Photoshop, Premiere, After Effects, and Illustrator.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 mb-2">
+                    <a href="#project-management" data-toggle="tab">
+                        <div class="service-item rounded p-5 mb-4">
+                            <i class="fa fa-3x fa-tasks text-primary mb-4"></i>
+                            <h4 class="text-uppercase mb-4">Project<span class="d-block text-body">Management</span></h4>
+                            <p class="m-0">I have developed skills in project planning, task delegation, and coordination.</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="tab-content">
+                <div class="tab-pane fade show active" id="mobile-app">
+                    <div class="service-item-tab rounded p-5 mb-4">
+                        <p class="mb-3">I am an experienced mobile app developer with a strong background in Swift for iOS app development. During my internship, I had the opportunity to develop an app for my company that included a backend software to control the content of the app. This allowed me to develop a strong understanding of backend development, and to create an app that was highly customizable and easy to manage.</p>
+                        <p class="mb-3">One of the challenges I faced during the development process was a lack of familiarity with a particular aspect of Swift. However, I was able to overcome this challenge by conducting thorough research online and solving the problem step by step. This experience allowed me to further hone my problem-solving skills and technical knowledge.</p> 
+                        <p class="mb-3">Some of the specific features of the app I developed include the ability to add new events, push notifications, and message control. Leveraging my expertise in design patterns and UI/UX best practices, I created a user-friendly app with intuitive functionality that was easy for users to navigate.</p>
+                        <p class="mb-3">Throughout the development process, I worked closely with my team to ensure seamless collaboration and communication.</p>
+                        <p class="mb-3">Overall, my portfolio showcases my proficiency in mobile app development, my experience with backend software, and highlights my ability to work collaboratively and creatively to bring complex projects to fruition.</p>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="computer-programming">
+                    <div class="service-item-tab rounded p-5 mb-4">
+                        <p class="mb-3">I am a skilled programmer with proficiency in multiple languages including Python, C++, Vue.js, HTML, CSS, and JavaScript. During my internship with Brandnographer, I had the opportunity to build an <a href="https://bng-international.com/">official website</a> for the company using WordPress. This experience allowed me to further develop my skills in web development and gain valuable experience in working with a team.</p>
+                        <p class="mb-3">In addition to my internship work, I have also created a personal website to showcase my side programming projects and explore the possibilities of technology. This website serves as a "laboratory" for testing and experimenting with new ideas, and allows me to continuously learn and improve my skills.</p> 
+                        <p class="mb-3">Overall, my portfolio showcases my proficiency in programming, my ability to work collaboratively and creatively to solve complex problems, and my commitment to continuous learning and improvement in this field.</p>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="video-image-editing">
+                    <div class="service-item-tab rounded p-5 mb-4">
+                        <p class="mb-3">I am a skilled graphic designer and video editor with proficiency in various software programs including Photoshop, Premiere, After Effects, and Illustrator. I acquired these skills while running student societies and creating promotional items for my fellow members. Additionally, I have a personal passion for photography and enjoy using Photoshop to enhance my photos.</p>
+                        <p class="mb-3">One of my favorite video projects that I have worked on is called <b>[翱峰 Q&A]</b>, which I created for my student society. This video project can be viewed at <a href="https://youtu.be/Hvg-knA00NQ">here</a>. Throughout the project, I leveraged my creativity and technical skills to produce a visually appealing and engaging video that met the needs of my audience.</p> 
+                        <p class="mb-3">Overall, my portfolio showcases my proficiency in programming, my ability to work collaboratively and creatively to solve complex problems, and my commitment to continuous learning and improvement in this field.</p>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="project-management">
+                    <div class="service-item-tab rounded p-5 mb-4">
+                        <p class="mb-3">I am a beginner in project management with a growing skillset in project planning, task delegation, and coordination. During my time at Hang Seng Bank and livi Bank, I had the opportunity to assist with various projects which allowed me to develop my skills in task management such as goal setting, progress tracking, and deadline pursuing ability, as well as task prioritization.</p>
+                        <p class="mb-3">Throughout my career, I have demonstrated a strong willingness to learn and adapt to new challenges. I have worked collaboratively with others to ensure seamless communication and teamwork, and I am highly motivated to develop my skills in project management to become a proficient professional in this field.</p> 
+                        <p class="mb-3">In addition to my project management skills, I am also efficient in working under pressure and tight deadlines. I can quickly identify areas for improvement and implement effective solutions to streamline processes and improve project outcomes.</p>
+                        <p class="mb-3">Overall, my portfolio showcases my potential in project management, my ability to work collaboratively and efficiently, and my commitment to continuous learning and improvement in this field.</p>
+                    </div>
+                </div>
+            </div>
+        </div>  
+    </div>
+    <!-- My Skills End -->
+
+    <!-- Workng Experience Starts -->
+    <div class="container-fluid py-5" id="workingExperience">
+        <div class="container pt-5 pb-3">
+            <h1 class="display-4 text-uppercase text-center mb-4">Working Experience</h1>
+            <div class="my_skill_row" style="margin-bottom: 20px;">
+                <span>My previous internship provided me with <span style="color: #8f5b01; font-weight: 900;">invaluable experience</span> in my field, as I had the opportunity to work on a diverse range of projects that allowed me to <span style="color: #8f5b01; font-weight: 900;">develop my skills and knowledge</span>. Working alongside experienced professionals, I received mentorship and guidance that helped me to grow both personally and professionally.</span>
+                    <br><br>
             </div>
             <div class="row">
-                <div class="col-lg-3 mb-2">
-                    <div class="service-item rounded p-5 mb-4">
-                        <i class="fa fa-3x fa-mobile text-primary mb-4"></i>
-                        <h4 class="text-uppercase mb-4">Mobile App <span class="d-block text-body">Development</span></h4>
-                        <p class="m-0">I have built an IOS app in previous internship.</p>
+                <div class="col-lg-2 mb-2">
+                    <div class="service-item rounded p-5 mb-4 WExp">
+                        <img src="img/Gallery/Portfolio/Working Experience/HKT.png">
+                        <h4 class="text-uppercase mb-4">FinTech Intern<span class="d-block text-body">06/2022 - 08/2023</span></h4>
                     </div>
                 </div>
-                <div class="col-lg-3 mb-2">
-                    <div class="service-item rounded p-5 mb-4">
-                        <i class="fa fa-3x fa-code text-primary mb-4"></i>
-                        <h4 class="text-uppercase mb-4">Website <span class="d-block text-body">Development</span></h4>
-                        <p class="m-0">I used WordPress to build a website for a company in previous internship.</p>
+                <div class="col-lg-2 mb-2">
+                    <div class="service-item rounded p-5 mb-4 WExp">
+                        <img src="img/Gallery/Portfolio/Working Experience/livibank.png">
+                        <h4 class="text-uppercase mb-4">IT/Regulation Intern<span class="d-block text-body">04/2023 - 05/2023</span></h4>
                     </div>
                 </div>
-                <div class="col-lg-3 mb-2">
-                    <div class="service-item rounded p-5 mb-4">
-                        <i class="fa fa-3x fa-envelope-open-text text-primary mb-4"></i>
-                        <h4 class="text-uppercase mb-4">Video <span class="d-block text-body">Editing</span></h4>
-                        <p class="m-0">I could express my feeling and feel satisfied by editing video. </p>
+                <div class="col-lg-2 mb-2">
+                    <div class="service-item rounded p-5  mb-4 WExp">
+                        <img src="img/Gallery/Portfolio/Working Experience/HASE.png">
+                        <h4 class="text-uppercase mb-4">FinTech Intern<span class="d-block text-body">09/2022 - 03/2023</span></h4>
                     </div>
                 </div>
-                <div class="col-lg-3 mb-2">
-                    <div class="service-item rounded p-5 mb-4">
-                        <i class="fa fa-3x fa-edit text-primary mb-4"></i>
-                        <h4 class="text-uppercase mb-4">Content <span class="d-block text-body">Writing</span></h4>
-                        <p class="m-0">More specifily, I could share my experience by writing meaningful content.</p>
+                <div class="col-lg-2 mb-2">
+                    <div class="service-item rounded p-5 mb-4 WExp">
+                        <img src="img/Gallery/Portfolio/Working Experience/China Citic Bank International.png">
+                        <h4 class="text-uppercase mb-4">Trainee, Technology<span class="d-block text-body">06/2022 - 09/2022</span></h4>
+                    </div>
+                </div>
+                <div class="col-lg-2 mb-2">
+                    <div class="service-item rounded p-5 mb-4 WExp">
+                        <img src="img/Gallery/Portfolio/Working Experience/Brandnographer.png">
+                        <h4 class="text-uppercase mb-4">Full Stack Developer<span class="d-block text-body">09/2021 - 05/2022</span></h4>
+                    </div>
+                </div>
+                <div class="col-lg-2 mb-2">
+                    <div class="service-item rounded p-5 mb-4 WExp">
+                        <img src="img/Gallery/Portfolio/Working Experience/MarvelConnect.png">
+                        <h4 class="text-uppercase mb-4">IT Intern<span class="d-block text-body">08/2021 - 09/2021</span></h4>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Gallery End -->
+    <!-- Working Experience End-->
 
-    <!-- Footer Start -->
-    <div class="container-fluid bg-dark text-white-50 py-5 px-sm-3 px-md-5" style="margin-top: 90px;">
-        <div class="row pt-5">
-            <div class="col-lg-3 col-md-6 mb-5">
-                <a href="index.html" class="navbar-brand">
-                    <h1 class="m-0 mt-n2 text-white display-4">KEVIN YUEN</h1>
-                </a>
-                <p>I'm a Student, Programmer and Dream Chaster.</p>
-                <h6 class="text-uppercase text-white py-2">Follow Me</h6>
-                <div class="d-flex justify-content-start">
-                    <a class="btn btn-lg btn-primary btn-lg-square mr-2" href="https://api.whatsapp.com/send?phone=85260234863&text=Hi%2C%20I%20am%20Kevin%20Yuen%2C%20nice%20to%20meet%20you.%20Please%20leave%20your%20message%20here."><i class="fab fa-whatsapp"></i></a>
-                    <a class="btn btn-lg btn-primary btn-lg-square mr-2" href="https://www.facebook.com/profile.php?id=100001705519231"><i class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-lg btn-primary btn-lg-square mr-2" href="https://www.linkedin.com/in/kevin-yuen-66a068221/"><i class="fab fa-linkedin-in"></i></a>
-                    <a class="btn btn-lg btn-primary btn-lg-square" href="https://www.instagram.com/kevinyuenkf/?hl=zh-tw"><i class="fab fa-instagram"></i></a>
+    <!-- My Projects Start -->
+    <div class="container-fluid py-5" id="myProjects">
+        <div class="container pt-5 pb-3">
+            <h1 class="display-4 text-uppercase text-center mb-5">Visit my Projects</h1>
+            <div class="row">
+                <div class="col-12 text-center mb-2">
+                    <ul class="list-inline mb-4" id="portfolio-flters">
+                        <li class="btn btn-outline-dark text-uppercase py-2 px-4 active"
+                            data-filter="*">
+                            <i class="fa fa-star text-primary mr-2"></i>All
+                        </li>
+                        <li class="btn btn-outline-dark text-uppercase py-2 px-4"
+                            data-filter=".first">
+                            <i class="fa fa-laptop-code text-primary mr-2"></i>Website
+                        </li>
+                        <li class="btn btn-outline-dark text-uppercase py-2 px-4"
+                            data-filter=".second">
+                            <i class="fa fa-mobile-alt text-primary mr-2"></i>Mobile
+                        </li>
+                        <li class="btn btn-outline-dark text-uppercase py-2 px-4"
+                            data-filter=".third">
+                            <i class="fa fa-camera text-primary mr-2"></i>Photo
+                        </li>
+                    </ul>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 mb-5">
-                <h4 class="text-uppercase text-white mb-4">Get In Touch</h4>
-                <p>Find me if you're interested in me.</p>
-                <p><i class="fa fa-map-marker-alt text-white mr-2"></i>Ma On Shan, Hong Kong, China</p>
-                <p><i class="fa fa-phone-alt text-white mr-2"></i>+852 6023 4863</p>
-                <p><i class="fa fa-envelope text-white mr-2"></i>yuenkevin0227@gmail.com</p>
-            </div>
-            <div class="col-lg-3 col-md-6 mb-5">
-                <h4 class="text-uppercase text-white mb-4">Quick Links</h4>
-                <div class="d-flex flex-column justify-content-start">
-                    <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right text-white mr-2"></i>Home</a>
-                    <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right text-white mr-2"></i>About</a>
-                    <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right text-white mr-2"></i>Gallery</a>
-                    <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right text-white mr-2"></i>Portfolio</a>
-                    <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right text-white mr-2"></i>Blog</a>
-                    <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right text-white mr-2"></i>Article</a>
-                    <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right text-white mr-2"></i>Project</a>
-                    <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right text-white mr-2"></i>Contact</a>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 mb-5">
-                <h4 class="text-uppercase text-white mb-4">Newsletter</h4>
-                <p class="mb-4">Want more of my best content? Sign up today.</p>
-                <div class="w-100 mb-3">
-                    <div class="input-group">
-                        <input type="text" class="form-control border-light" style="padding: 25px;"
-                            placeholder="Your Email">
-                        <div class="input-group-append">
-                            <button class="btn btn-primary text-uppercase px-3">Sign Up</button>
+            <div class="row portfolio-container">
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item third">
+                    <div class="team-item rounded overflow-hidden">
+                        <div class="position-relative">
+                            <img class="img-fluid w-100" src="img/brandnographer.jpg" alt="">
+                            <div class="team-overlay">
+                                <div class="d-flex align-items-center justify-content-start">
+                                    <a class="btn btn-lg btn-primary btn-lg-square mx-1" href="#"><i
+                                            class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-lg btn-primary btn-lg-square mx-1" href="#"><i
+                                            class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-lg btn-primary btn-lg-square mx-1" href="#"><i
+                                            class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bg-light text-center p-4">
+                            <h4 class="text-uppercase">Brandnographer</h4>
+                            <p class="m-0">Helped to construct official website by WordPress.</p>
                         </div>
                     </div>
                 </div>
-                <i>Thank you for your supporting.</i>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
+                    <div class="team-item rounded overflow-hidden">
+                        <div class="position-relative">
+                            <img class="img-fluid w-100" src="img/brandnographer.jpg" alt="">
+                            <div class="team-overlay">
+                                <div class="d-flex align-items-center justify-content-start">
+                                    <a class="btn btn-lg btn-primary btn-lg-square mx-1" href="#"><i
+                                            class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-lg btn-primary btn-lg-square mx-1" href="#"><i
+                                            class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-lg btn-primary btn-lg-square mx-1" href="#"><i
+                                            class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bg-light text-center p-4">
+                            <h4 class="text-uppercase">Brandnographer</h4>
+                            <p class="m-0">Helped to construct official website by WordPress.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
+                    <div class="team-item rounded overflow-hidden">
+                        <div class="position-relative">
+                            <img class="img-fluid w-100" src="img/edvanced Logo.jpg" alt="">
+                            <div class="team-overlay">
+                                <div class="d-flex align-items-center justify-content-start">
+                                    <a class="btn btn-lg btn-primary btn-lg-square mx-1" href="#"><i
+                                            class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-lg btn-primary btn-lg-square mx-1" href="#"><i
+                                            class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-lg btn-primary btn-lg-square mx-1" href="#"><i
+                                            class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bg-light text-center p-4">
+                            <h4 class="text-uppercase">Edvanced.co</h4>
+                            <p class="m-0">Helped to create an IOS application and assisted a NFT
+                                Donation Campaign.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-    <div class="container-fluid py-4 px-sm-3 px-md-5" style="background: #111111;">
-        <p class="mb-2 text-center text-white-50">&copy; <a href="#">Kevin Yuen 2022</a>. All Rights Reserved.</p>
-    </div>
+    <!-- My Projects End -->
+
+    <!-- Footer Start -->
+    <div id="footer"></div>
     <!-- Footer End -->
 
 
@@ -201,3 +327,20 @@
 </body>
 
 </html>
+
+<script>
+    $(document).ready(function() {
+      // listen for tab show event
+      $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
+        // get the active tab pane ID
+        var activeTabId = $(e.target).attr('href');
+        // update the active tab state
+        $('a[data-toggle="tab"]').removeClass('active');
+        $(e.target).addClass('active');
+        $('.tab-pane').removeClass('active');
+        $(activeTabId).addClass('active');
+      });
+    });
+
+</script>
+
